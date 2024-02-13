@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/home/slider-filter-search": "pages/home/slider-filter-search.js",
+  "/property/image-slider": "pages/property/image-slider.js",
+  "/listing/tab-layout/tab-left-sidebar": "pages/listing/tab-layout/tab-left-sidebar.js",
+  "/api/property": "pages/api/property.js",
+  "/contact/contact-us-2": "pages/contact/contact-us-2.js"
+}
