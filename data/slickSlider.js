@@ -175,7 +175,7 @@ export const testimonial1 = {
 export const testimonial2 = {
   dots: false,
   infinite: true,
-  speed: 700,
+  speed: 500,
   fade: true,
   autoplay: true,
   responsive: [

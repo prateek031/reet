@@ -42,7 +42,6 @@ const TestimonialSection = ({ value, normal }) => {
                           </li>
                         </ul>
                         <p>{data.detail}</p>
-                        <h6>real estate</h6>
                         <ul className="client-rating">
                           <ReviewStarr />
                         </ul>

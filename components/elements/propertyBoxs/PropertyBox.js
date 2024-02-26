@@ -58,15 +58,15 @@ const PropertyBox = ({ data, relativeSlider, video }) => {
             <ul>
               <li>
                 <img src="/assets/images/svg/icon/double-bed.svg" className="img-fluid" alt="" />
-                Bed : {data.bed || 5}
+                Bed : {data.bed || 0}
               </li>
               <li>
                 <img src="/assets/images/svg/icon/bathroom.svg" className="img-fluid" alt="" />
-                Baths : {data.bath || 5}
+                Baths : {data.bath || 0}
               </li>
               <li>
                 <img src="/assets/images/svg/icon/square-ruler-tool.svg" className="img-fluid ruler-tool" alt="" />
-                Sq Ft : {data.sqft || 5}
+                Sq Mtr : {data.sqft || 0}
               </li>
             </ul>
             <div className="property-btn d-flex">
