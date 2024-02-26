@@ -4,7 +4,7 @@
  */
 import Link from "next/link";
 import React from "react";
-import { SubmitProperty, WantToBuyOrRentHome } from "../../../../constValues/constValues";
+import { KnowMore, WantToBuyOrRentHome } from "../../../../constValues/constValues";
 
 const HomeSliderContent = ({ img, mainTitle }) => {
   return (
@@ -14,8 +14,8 @@ const HomeSliderContent = ({ img, mainTitle }) => {
           <img src={img} className="img-fluid m-0" alt="" />
           <h6>{WantToBuyOrRentHome}</h6>
           <h1>{mainTitle}</h1>
-          <Link href="/agent/submit-property" className="btn btn-gradient">
-            {SubmitProperty}
+          <Link href="aboutus" className="btn btn-gradient">
+            {KnowMore}
           </Link>
         </div>
       </div>

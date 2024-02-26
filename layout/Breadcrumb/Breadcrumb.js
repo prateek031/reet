@@ -22,7 +22,7 @@ const Breadcrumb = ({ right }) => {
                   <Fragment key={i}>
                     {data && (
                       <li className="breadcrumb-item">
-                        <a>{data.replaceAll("-", " ")}</a>
+                        {/* <a>{data.replaceAll("-", " ")}</a> */}
                       </li>
                     )}
                   </Fragment>

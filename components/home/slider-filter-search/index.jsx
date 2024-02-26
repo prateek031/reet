@@ -39,17 +39,17 @@ const BodyContent = () => {
     <>
       <HomeBannerSection />
       <ServiceSection value={AppPropertyData.ProvidedServices} />
-      <AboutUsSection value={clientData?.OurAgentInCorporateLayout} />
+      {/* <AboutUsSection value={clientData?.OurAgentInCorporateLayout} /> */}
       <SalePropertySection value={value?.LatestForSalePropertyData} />
-      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
       <FeatureSection value={value?.FeaturedProperty} />
       <PropertySection value={value?.LatestPropertyData} />
       <OfferSection value={AppPropertyData.OurNewOffer} />
-      <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} />
+      <PropertyServicesSection value={AppPropertyData.PropertyServicesInClassic} />
+      {/* <CitiesWisePropertySection value={value?.FindPropertiesInTheseCities} /> */}
       <BannerSection />
       <AboutSection value={clientData?.MeetOurAgent} />
       <TestimonialSection value={clientData?.HappyClient} normal={true} />
-      <BrandSection />
+      {/* <BrandSection /> */}
     </>
   );
 };

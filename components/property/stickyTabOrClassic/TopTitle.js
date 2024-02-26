@@ -88,7 +88,7 @@ const TopTitle = ({ singleData }) => {
           <div className="right-single">
             <ReviewStarr rating={4} />
             <h2 className="price">
-              ${singleData?.price || "20,45,472"} <span>/ start From</span>
+              JOD{singleData?.price || "20,45,472"} <span>/ start From</span>
             </h2>
             <div className="feature-label">
               <span className="btn btn-dashed btn-pill">Wi-fi</span>

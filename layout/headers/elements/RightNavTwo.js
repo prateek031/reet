@@ -47,12 +47,12 @@ const RightNavTwo = () => {
         </div>
       </li>
       <li>
-        <Link href="/agent/submit-property">
+        <Link href="#">
           <Home />
         </Link>
       </li>
       <li>
-        <Link href="/pages/other-pages/login">
+        <Link href="#">
           <User />
         </Link>
       </li>

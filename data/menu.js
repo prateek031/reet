@@ -2,211 +2,238 @@ import { Clipboard, Home, Layers, Link, MapPin, User, Zap } from "react-feather"
 
 export const MainNavMenuItems = [
   {
-    title: "HOME",
+    title: "Home",
     icon: <Home />,
-    type: "sub",
-    children: [
-      {
-        path: "/home/slider-filter-search",
-        title: "Slider Filter Search",
-        type: "link",
-      },
-      { path: "/home/corporate", title: "Corporate", type: "link" },
-      { path: "/home/enterprise", title: "Enterprise", type: "link" },
-      {
-        path: "/home/classic",
-        title: "Classic",
-        type: "link",
-        tag: "New",
-      },
-      { path: "/home/image-with-content", title: "Image With Content", type: "link" },
-      { path: "/home/modern", title: "Modern", type: "link", tag: "New" },
-      { path: "/home/parallax-image", title: "Parallax Image", type: "link" },
-      { path: "/home/search-tab", title: "Search Tab", type: "link" },
-      { path: "/home/typed-image", title: "Typed Image", type: "link" },
-      { path: "/home/modern-video", title: "Modern Video", type: "link" },
-      { path: "/home/map-with-V-search", title: "Map With V-Search", type: "link" },
-      { path: "/home/map-with-H-search", title: "Map With H-Search", type: "link" },
-    ],
+    type: "link",
+    path: "/home", 
+    
   },
   {
-    title: "LISTING",
+    title: "Properties",
     icon: <Clipboard />,
-    type: "sub",
-    children: [
-      {
-        title: "Grid View",
-        type: "sub",
-        children: [
-          {
-            title: "2 Grid",
-            type: "sub",
-            children: [
-              {
-                path: "/listing/grid-view/2-grid/left-sidebar",
-                title: "Properties",
-                type: "link",
-              },
-              {
-                path: "/listing/grid-view/2-grid/right-sidebar",
-                title: "Right Sidebar",
-                type: "link",
-              },
-              { path: "/listing/grid-view/2-grid/no-sidebar", title: "No Sidebar", type: "link" },
-            ],
-          },
-          {
-            title: "3 Grid",
-            type: "sub",
-            children: [
-              {
-                path: "/listing/grid-view/3-grid/left-sidebar",
-                title: "Properties",
-                type: "link",
-              },
-              {
-                path: "/listing/grid-view/3-grid/right-sidebar",
-                title: "Right Sidebar",
-                type: "link",
-              },
-              { path: "/listing/grid-view/3-grid/no-sidebar", title: "No Sidebar", type: "link" },
-            ],
-          },
-          { path: "/listing/grid-view/slider", title: "Slider", type: "link" },
-          {
-            title: "Map",
-            type: "sub",
-            children: [
-              { path: "/listing/grid-view/map/google-map", title: "Google Map", type: "link" },
-              {
-                path: "/listing/grid-view/map/leaflet-map",
-                title: "Leaflet Map",
-                type: "link",
-              },
-              {
-                path: "/listing/grid-view/map/pigeon-map",
-                title: "Pigeon Map",
-                type: "link",
-              },
-            ],
-          },
-          {
-            title: "Map Modal",
-            type: "sub",
-            children: [
-              { path: "/listing/grid-view/map-modal/google-map", title: "Google Map", type: "link" },
-              {
-                path: "/listing/grid-view/map-modal/leaflet-map",
-                title: "Leaflet Map",
-                type: "link",
-              },
-              {
-                path: "/listing/grid-view/map-modal/pigeon-map",
-                title: "Pigeon Map",
-                type: "link",
-              },
-            ],
-          },
-          {
-            title: "Left Side Map",
-            type: "sub",
-            children: [
-              { path: "/listing/grid-view/left-side-map/google-map", title: "Google Map", type: "link" },
-              {
-                path: "/listing/grid-view/left-side-map/leaflet-map",
-                title: "Leaflet Map",
-                type: "link",
-              },
-              {
-                path: "/listing/grid-view/left-side-map/pigeon-map",
-                title: "Pigeon Map",
-                type: "link",
-              },
-            ],
-          },
-          {
-            title: "On Click Map",
-            type: "sub",
-            children: [
-              { path: "/listing/grid-view/on-click-map/google-map", title: "Google Map", type: "link" },
-              {
-                path: "/listing/grid-view/on-click-map/leaflet-map",
-                title: "Leaflet Map",
-                type: "link",
-              },
-              {
-                path: "/listing/grid-view/on-click-map/pigeon-map",
-                title: "Pigeon Map",
-                type: "link",
-              },
-            ],
-          },
-          {
-            title: "Map Header",
-            type: "sub",
-            children: [
-              { path: "/listing/grid-view/map-header/google-map", title: "Google Map", type: "link" },
-              {
-                path: "/listing/grid-view/map-header/leaflet-map",
-                title: "Leaflet Map",
-                type: "link",
-              },
-              {
-                path: "/listing/grid-view/map-header/pigeon-map",
-                title: "Pigeon Map",
-                type: "link",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: "List View",
-        type: "sub",
-        children: [
-          {
-            title: "Listing",
-            type: "sub",
-            children: [
-              { path: "/listing/list-view/listing/left-sidebar", title: "Left Sidebar", type: "link" },
-              { path: "/listing/list-view/listing/right-sidebar", title: "Right Sidebar", type: "link" },
-              { path: "/listing/list-view/listing/no-sidebar", title: "No Sidebar", type: "link" },
-            ],
-          },
-          {
-            title: "Map",
-            type: "sub",
-            children: [
-              { path: "/listing/list-view/map/google-map", title: "Google Map", type: "link" },
-              { path: "/listing/list-view/map/leaflet-map", title: "Leaflet Map", type: "link" },
-              { path: "/listing/list-view/map/pigeon-map", title: "Pigeon Map", type: "link" },
-            ],
-          },
-          { path: "/listing/list-view/slider", title: "Slider", type: "link" },
-          { path: "/listing/list-view/thumbnail-image", title: "Thumbnail Image", type: "link" },
-          { path: "/listing/list-view/video", title: "Video", type: "link" },
-        ],
-      },
-      {
-        title: "Tab Layout",
-        type: "sub",
-        children: [
-          { path: "/listing/tab-layout/tab-full-width", title: "Tab Full Width", type: "link" },
-          { path: "/listing/tab-layout/tab-left-sidebar", title: "Properties", type: "link" },
-          { path: "/listing/tab-layout/tab-right-sidebar", title: "Tab Right Sidebar", type: "link" },
-        ],
-      },
-      {
-        title: "Infinite Scroll",
-        type: "sub",
-        children: [
-          { path: "/listing/infinite-scroll/tab-full-width", title: "Tab Full Width", type: "link" },
-          { path: "/listing/infinite-scroll/tab-left-sidebar", title: "Tab Left Sidebar", type: "link" },
-          { path: "/listing/infinite-scroll/tab-right-sidebar", title: "Tab Right Sidebar", type: "link" },
-        ],
-      },
-    ],
+    type: "link",
+    path: "/properties",
+    
   },
+  {
+    title: "Contact Us",
+    icon: <MapPin />,
+    type: "link",
+    path: "/contact-us",
+  },
+  {
+    title: "About us",
+    icon: <Layers />,
+    type: "link",
+    path: "/aboutus",
+  },
+
+  // {
+  //   title: "HOME",
+  //   icon: <Home />,
+  //   type: "sub",
+  //   children: [
+  //     {
+  //       path: "/home/slider-filter-search",
+  //       title: "Slider Filter Search",
+  //       type: "link",
+  //     },
+  //     { path: "/home/corporate", title: "Corporate", type: "link" },
+  //     { path: "/home/enterprise", title: "Enterprise", type: "link" },
+  //     {
+  //       path: "/home/classic",
+  //       title: "Classic",
+  //       type: "link",
+  //       tag: "New",
+  //     },
+  //     { path: "/home/image-with-content", title: "Image With Content", type: "link" },
+  //     { path: "/home/modern", title: "Modern", type: "link", tag: "New" },
+  //     { path: "/home/parallax-image", title: "Parallax Image", type: "link" },
+  //     { path: "/home/search-tab", title: "Search Tab", type: "link" },
+  //     { path: "/home/typed-image", title: "Typed Image", type: "link" },
+  //     { path: "/home/modern-video", title: "Modern Video", type: "link" },
+  //     { path: "/home/map-with-V-search", title: "Map With V-Search", type: "link" },
+  //     { path: "/home/map-with-H-search", title: "Map With H-Search", type: "link" },
+  //   ],
+  // },
+  // {
+  //   title: "LISTING",
+  //   icon: <Clipboard />,
+  //   type: "sub",
+  //   children: [
+  //     {
+  //       title: "Grid View",
+  //       type: "sub",
+  //       children: [
+  //         {
+  //           title: "2 Grid",
+  //           type: "sub",
+  //           children: [
+  //             {
+  //               path: "/listing/grid-view/2-grid/left-sidebar",
+  //               title: "Properties",
+  //               type: "link",
+  //             },
+  //             {
+  //               path: "/listing/grid-view/2-grid/right-sidebar",
+  //               title: "Right Sidebar",
+  //               type: "link",
+  //             },
+  //             { path: "/listing/grid-view/2-grid/no-sidebar", title: "No Sidebar", type: "link" },
+  //           ],
+  //         },
+  //         {
+  //           title: "3 Grid",
+  //           type: "sub",
+  //           children: [
+  //             {
+  //               path: "/listing/grid-view/3-grid/left-sidebar",
+  //               title: "Properties",
+  //               type: "link",
+  //             },
+  //             {
+  //               path: "/listing/grid-view/3-grid/right-sidebar",
+  //               title: "Right Sidebar",
+  //               type: "link",
+  //             },
+  //             { path: "/listing/grid-view/3-grid/no-sidebar", title: "No Sidebar", type: "link" },
+  //           ],
+  //         },
+  //         { path: "/listing/grid-view/slider", title: "Slider", type: "link" },
+  //         {
+  //           title: "Map",
+  //           type: "sub",
+  //           children: [
+  //             { path: "/listing/grid-view/map/google-map", title: "Google Map", type: "link" },
+  //             {
+  //               path: "/listing/grid-view/map/leaflet-map",
+  //               title: "Leaflet Map",
+  //               type: "link",
+  //             },
+  //             {
+  //               path: "/listing/grid-view/map/pigeon-map",
+  //               title: "Pigeon Map",
+  //               type: "link",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           title: "Map Modal",
+  //           type: "sub",
+  //           children: [
+  //             { path: "/listing/grid-view/map-modal/google-map", title: "Google Map", type: "link" },
+  //             {
+  //               path: "/listing/grid-view/map-modal/leaflet-map",
+  //               title: "Leaflet Map",
+  //               type: "link",
+  //             },
+  //             {
+  //               path: "/listing/grid-view/map-modal/pigeon-map",
+  //               title: "Pigeon Map",
+  //               type: "link",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           title: "Left Side Map",
+  //           type: "sub",
+  //           children: [
+  //             { path: "/listing/grid-view/left-side-map/google-map", title: "Google Map", type: "link" },
+  //             {
+  //               path: "/listing/grid-view/left-side-map/leaflet-map",
+  //               title: "Leaflet Map",
+  //               type: "link",
+  //             },
+  //             {
+  //               path: "/listing/grid-view/left-side-map/pigeon-map",
+  //               title: "Pigeon Map",
+  //               type: "link",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           title: "On Click Map",
+  //           type: "sub",
+  //           children: [
+  //             { path: "/listing/grid-view/on-click-map/google-map", title: "Google Map", type: "link" },
+  //             {
+  //               path: "/listing/grid-view/on-click-map/leaflet-map",
+  //               title: "Leaflet Map",
+  //               type: "link",
+  //             },
+  //             {
+  //               path: "/listing/grid-view/on-click-map/pigeon-map",
+  //               title: "Pigeon Map",
+  //               type: "link",
+  //             },
+  //           ],
+  //         },
+  //         {
+  //           title: "Map Header",
+  //           type: "sub",
+  //           children: [
+  //             { path: "/listing/grid-view/map-header/google-map", title: "Google Map", type: "link" },
+  //             {
+  //               path: "/listing/grid-view/map-header/leaflet-map",
+  //               title: "Leaflet Map",
+  //               type: "link",
+  //             },
+  //             {
+  //               path: "/listing/grid-view/map-header/pigeon-map",
+  //               title: "Pigeon Map",
+  //               type: "link",
+  //             },
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       title: "List View",
+  //       type: "sub",
+  //       children: [
+  //         {
+  //           title: "Listing",
+  //           type: "sub",
+  //           children: [
+  //             { path: "/listing/list-view/listing/left-sidebar", title: "Left Sidebar", type: "link" },
+  //             { path: "/listing/list-view/listing/right-sidebar", title: "Right Sidebar", type: "link" },
+  //             { path: "/listing/list-view/listing/no-sidebar", title: "No Sidebar", type: "link" },
+  //           ],
+  //         },
+  //         {
+  //           title: "Map",
+  //           type: "sub",
+  //           children: [
+  //             { path: "/listing/list-view/map/google-map", title: "Google Map", type: "link" },
+  //             { path: "/listing/list-view/map/leaflet-map", title: "Leaflet Map", type: "link" },
+  //             { path: "/listing/list-view/map/pigeon-map", title: "Pigeon Map", type: "link" },
+  //           ],
+  //         },
+  //         { path: "/listing/list-view/slider", title: "Slider", type: "link" },
+  //         { path: "/listing/list-view/thumbnail-image", title: "Thumbnail Image", type: "link" },
+  //         { path: "/listing/list-view/video", title: "Video", type: "link" },
+  //       ],
+  //     },
+  //     {
+  //       title: "Tab Layout",
+  //       type: "sub",
+  //       children: [
+  //         { path: "/listing/tab-layout/tab-full-width", title: "Tab Full Width", type: "link" },
+  //         { path: "/listing/tab-layout/tab-left-sidebar", title: "Properties", type: "link" },
+  //         { path: "/listing/tab-layout/tab-right-sidebar", title: "Tab Right Sidebar", type: "link" },
+  //       ],
+  //     },
+  //     {
+  //       title: "Infinite Scroll",
+  //       type: "sub",
+  //       children: [
+  //         { path: "/listing/infinite-scroll/tab-full-width", title: "Tab Full Width", type: "link" },
+  //         { path: "/listing/infinite-scroll/tab-left-sidebar", title: "Tab Left Sidebar", type: "link" },
+  //         { path: "/listing/infinite-scroll/tab-right-sidebar", title: "Tab Right Sidebar", type: "link" },
+  //       ],
+  //     },
+  //   ],
+  // },
 
   {
     title: "PROPERTY",
@@ -544,70 +571,70 @@ export const MainNavMenuItems = [
       },
     ],
   },
-  {
-    title: "MODULES",
-    icon: <Zap />,
-    type: "sub",
-    children: [
-      {
-        path: "/modules/button",
-        title: "Button",
-        type: "link",
-      },
-      { path: "/modules/label", title: "Label", type: "link" },
-      { path: "/modules/title", title: "Title", type: "link" },
-      {
-        path: "/modules/image-ratio",
-        title: "Image Ratio",
-        type: "link",
-        icon: "true",
-      },
-      { path: "/modules/footer", title: "Footer", type: "link" },
-      { path: "/modules/blog", title: "Blog", type: "link" },
-      { path: "/modules/brand", title: "Brand", type: "link" },
-      { path: "/modules/testimonial", title: "Testimonial", type: "link" },
-      { path: "/modules/full-banner", title: "Full Banner", type: "link" },
-      { path: "/modules/about", title: "About", type: "link" },
-      { path: "/modules/service", title: "Service", type: "link" },
-      { path: "/modules/property", title: "Property", type: "link" },
-      { path: "/modules/feature", title: "Feature", type: "link" },
-      { path: "/modules/others", title: "others", type: "link" },
-    ],
-  },
-  {
-    title: "AGENT",
-    icon: <User />,
-    type: "sub",
-    children: [
-      {
-        path: "/agent/agent-profile",
-        title: "Agent Profile",
-        type: "link",
-      },
-      { path: "/agent/agent-grid", title: "Agent Grid", type: "link" },
-      { path: "/agent/agent-list", title: "Agent List", type: "link" },
-      {
-        path: "/agent/submit-property",
-        title: "Submit Property",
-        type: "link",
-        tag: "New",
-      },
-    ],
-  },
-  {
-    title: "CONTACT",
-    icon: <MapPin />,
-    type: "sub",
-    children: [
-      {
-        path: "/contact/contact-us-1",
-        title: "Contact Us 1",
-        type: "link",
-      },
-      { path: "/contact/contact-us-2", title: "Contact Us ", type: "link" },
-      { path: "/contact/contact-us-3", title: "Contact Us 3", type: "link" },
-    ],
-  },
+  // {
+  //   title: "MODULES",
+  //   icon: <Zap />,
+  //   type: "sub",
+  //   children: [
+  //     {
+  //       path: "/modules/button",
+  //       title: "Button",
+  //       type: "link",
+  //     },
+  //     { path: "/modules/label", title: "Label", type: "link" },
+  //     { path: "/modules/title", title: "Title", type: "link" },
+  //     {
+  //       path: "/modules/image-ratio",
+  //       title: "Image Ratio",
+  //       type: "link",
+  //       icon: "true",
+  //     },
+  //     { path: "/modules/footer", title: "Footer", type: "link" },
+  //     { path: "/modules/blog", title: "Blog", type: "link" },
+  //     { path: "/modules/brand", title: "Brand", type: "link" },
+  //     { path: "/modules/testimonial", title: "Testimonial", type: "link" },
+  //     { path: "/modules/full-banner", title: "Full Banner", type: "link" },
+  //     { path: "/modules/about", title: "About", type: "link" },
+  //     { path: "/modules/service", title: "Service", type: "link" },
+  //     { path: "/modules/property", title: "Property", type: "link" },
+  //     { path: "/modules/feature", title: "Feature", type: "link" },
+  //     { path: "/modules/others", title: "others", type: "link" },
+  //   ],
+  // },
+  // {
+  //   title: "AGENT",
+  //   icon: <User />,
+  //   type: "sub",
+  //   children: [
+  //     {
+  //       path: "/agent/agent-profile",
+  //       title: "Agent Profile",
+  //       type: "link",
+  //     },
+  //     { path: "/agent/agent-grid", title: "Agent Grid", type: "link" },
+  //     { path: "/agent/agent-list", title: "Agent List", type: "link" },
+  //     {
+  //       path: "/agent/submit-property",
+  //       title: "Submit Property",
+  //       type: "link",
+  //       tag: "New",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "CONTACT",
+  //   icon: <MapPin />,
+  //   type: "sub",
+  //   children: [
+  //     {
+  //       path: "/contact/contact-us-1",
+  //       title: "Contact Us 1",
+  //       type: "link",
+  //     },
+  //     { path: "/contact/contact-us-2", title: "Contact Us ", type: "link" },
+  //     { path: "/contact/contact-us-3", title: "Contact Us 3", type: "link" },
+  //   ],
+  // },
 ];
 
 export const RightNavMenuItem = [
@@ -632,23 +659,11 @@ export const RightNavMenuItem = [
         symbol: "$",
         value: 1,
       },
-      {
-        currency: "EUR",
-        name: "euro",
-        symbol: "€",
-        value: 0.997,
-      },
-      {
-        currency: "GBP",
-        name: "pound",
-        symbol: "£",
-        value: 0.847,
-      },
-      {
-        currency: "IND",
-        name: "rupees",
-        symbol: "₹",
-        value: 79.9,
+           {
+        currency: "JOD",
+        name: "jordanian Dinar",
+        symbol: "JOD",
+        value:0.71,
       },
     ],
   },

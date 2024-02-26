@@ -30,7 +30,8 @@ const MainNav = ({ center, icon }) => {
                 <i aria-hidden="true" className="fa fa-angle-right ps-2"></i>
               </div>
             </li>
-            {MainNavMenuItems.map((navTitle, index) => (
+            {
+            MainNavMenuItems.map((navTitle, index) => (
               <Fragment key={index}>
                 {navTitle.type === "sub" ? (
                   <DropdownMenus
@@ -43,7 +44,14 @@ const MainNav = ({ center, icon }) => {
                     setIsOpenNestedChild={setIsOpenNestedChild}
                     icon={icon}
                   />
-                ) : (
+                )  :
+                navTitle.type === "link" ? (
+                  <li>
+                    <Link href={navTitle.path} passHref>
+                      {navTitle.title}
+                    </Link>
+                  </li>
+                ): (
                   <MegaMenu navTitle={navTitle} isOpen={isOpen} setIsOpen={setIsOpen} i isOpenNestedChild={isOpenNestedChild} setIsOpenNestedChild={setIsOpenNestedChild} />
                 )}
               </Fragment>

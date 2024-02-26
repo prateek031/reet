@@ -9,13 +9,10 @@ export const FooterData = {
   about: {
     title: "About",
     children: [
-      { title: "About us", link: "/pages/other-pages/about-us-2" },
-      { title: "Listing", link: "/listing/list-view/listing/no-sidebar" },
-      { title: "Property", link: "/property/sticky-tab-or-classic" },
-      { title: "Page", link: "/pages/portfolio/creative-1" },
-      { title: "Module", link: "/modules/property" },
-      { title: "Contact", link: "/contact/contact-us-2" },
-      { title: "Blog", link: "/pages/blog-page/left-sidebar" },
+      { title: "Home", link: "/home" },
+      { title: "About us", link: "/aboutus" },
+      { title: "Contact us", link: "/contactus" },
+      { title: "Properties", link: "/properties" },
     ],
   },
   tag: {

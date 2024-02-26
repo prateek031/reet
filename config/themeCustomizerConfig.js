@@ -1,6 +1,6 @@
 export const ConfigDB = {
   LayoutMode: "",
   LayoutType: "",
-  PrimaryColor: "",
-  SecondaryColor: "",
+  PrimaryColor: "#3438A3",
+  SecondaryColor: "#4750BF",
 };

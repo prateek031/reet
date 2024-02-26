@@ -12,7 +12,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { BannerDetail, BrowseProperty, BuyOrSell, SheltosRealEstate, SubmitProperty } from "../../../constValues/constValues";
+import { BannerDetail, BrowseProperty, BuyOrSell, SheltosRealEstate, KnowMore } from "../../../constValues/constValues";
 
 const BannerSection = ({ purple }) => {
   return (
@@ -29,10 +29,10 @@ const BannerSection = ({ purple }) => {
               <h6>{SheltosRealEstate}</h6>
               <h2>{BannerDetail}</h2>
               <div className="button-banner">
-                <Link href="/agent/submit-property" className="btn btn-gradient">
-                  {SubmitProperty}
+                <Link href="/aboutus" className="btn btn-gradient">
+                  {KnowMore}
                 </Link>
-                <Link href="/pages/portfolio/details" className="btn btn-white">
+                <Link href="/properties" className="btn btn-white">
                   <span>{BrowseProperty}</span>
                 </Link>
               </div>

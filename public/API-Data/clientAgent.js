@@ -22,22 +22,22 @@ export const clientAgentData = {
       img1: '/assets/images/testimonial/1.png',
       img2: '/assets/images/testimonial/2.png',
       img3: '/assets/images/testimonial/3.png',
-      name: 'Mark Andry',
-      detail: 'Surveyors make precise measurements of property boundaries. Many industries, including construction, rely on these measurements',
+      name: 'Omar Said Khalaf',
+      detail: "I never thought selling our home could be stress-free until we worked with GRG Global Group Real Estate. Their team took care of everything, from staging to closing, with such professionalism and ease. We're grateful for their expertise and highly recommend them to anyone looking to sell",
     },
     {
       img1: '/assets/images/testimonial/3.png',
       img2: '/assets/images/testimonial/1.png',
       img3: '/assets/images/testimonial/2.png',
-      name: 'John David',
-      detail: 'Residences can be classified by and connected to residences. Different types of housing can be use same physical type.',
+      name: 'Leila Abu-Hassan',
+      detail: 'As first-time homebuyers, we were nervous about the process, but GRG Global Group Real Estate guided us through every step. Their patience, knowledge, and genuine care for our needs made all the difference. We found our perfect home, thanks to them',
     },
     {
       img1: '/assets/images/testimonial/2.png',
       img2: '/assets/images/testimonial/3.png',
       img3: '/assets/images/testimonial/1.png',
-      name: 'Sima Roy',
-      detail: ' Different types of housing can be use same physical type. Many industries, including construction, rely on these measurements',
+      name: ' Fadi Al-Masri',
+      detail: "Finding the perfect farm land seemed daunting until we connected with GRG Global Group Real Estate. Their knowledgeable team understood our unique needs and guided us to the ideal property. Thanks to their expertise, we're now living our dream of owning a beautiful farm. Highly recommended",
     },
   ],
   OurAgentInCorporateLayout: [
@@ -98,24 +98,31 @@ export const clientAgentData = {
     {
       details: 'When it comes to selling property in Jordan, GRG is the name to trust. Their expert team goes above and beyond to market properties effectively, resulting in swift and profitable transactions. Their commitment to client satisfaction shines through in every interaction, making them my first choice for all my real estate needs.',
       img: '/assets/images/avatar/1.jpg',
-      name: 'Aida Bugg',
+      name: 'Hashem Abdullah',
+      ocp:"Business Man",
+
     },
     {
       details:
         'As a small business owner, finding the right storefront was crucial for my success. GRG made the process effortless with their wide range of available properties and personalized service. From initial inquiries to signing the lease, their team was responsive and attentive, ensuring a smooth and stress-free experience. I highly recommend GRG to anyone in search of a quality commercial space for rent.',
       img: '/assets/images/avatar/1.jpg',
-      name: 'Teri Dactyl',
+      name: 'Omar Youssef',
+      ocp:"Shop Owner",
     },
     {
       details:
         'GRG exceeded my expectations in helping me purchase a store for my business. Their dedication to understanding my needs and preferences ensured that I found the ideal location to set up shop. From property viewings to negotiations, their team was proactive and resourceful, making the buying process efficient and stress-free. I highly recommend GRG to anyone looking to invest in commercial real estate.',
       img: '/assets/images/avatar/4.jpg',
-      name: 'Elmer Harvy',
+      name: ' Zina Mariam',
+      ocp:"Restaurant Owner",
+
     },
     {
       details: "Putting my money into apartments with GRG has been one of the best financial decisions I've made. Their portfolio of properties offered diverse options for investment, and their team provided valuable advice every step of the way. The returns I've received have exceeded my expectations, and I'm grateful for GRG's professionalism and commitment to ensuring my investments yield fruitful results",
       img: '/assets/images/avatar/1.jpg',
-      name: 'Elmer Harvy',
+      name: 'Sarah Siyyed',
+      ocp:"Investor",
+
     },
 
     

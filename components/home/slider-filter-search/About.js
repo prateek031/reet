@@ -43,21 +43,19 @@ const AboutSection = ({ value }) => {
                         </Col>
                         <Col xl="6">
                           <div className="our-details">
-                            <Link href="/agent/agent-profile">
                               <h6 className="d-flex">
                                 {data.name}
                                 <span className="label-heart ms-2">
                                   <Heart />
                                 </span>
                               </h6>
-                            </Link>
                             <h3>{data.work}</h3>
                             <span className="font-roboto">
                               <Mail className="me-1" />
                               {data.email}
                             </span>
                             <p className="font-roboto">{data.detail}</p>
-                            <Link href="/agent/agent-profile" className="btn btn-gradient btn-pill mt-2">
+                            <Link href={`tel:${data.detail}`} className="btn btn-gradient btn-pill mt-2">
                               <Eye />
                               {ViewPortfolio}
                             </Link>

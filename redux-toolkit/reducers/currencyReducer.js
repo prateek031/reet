@@ -1,9 +1,9 @@
 import { createReducer } from "@reduxjs/toolkit";
 
 const initialState = {
-  currency: "USD",
-  name: "dollar",
-  symbol: "$",
+  currency: "JOD",
+  name: "jordanian Dinar",
+  symbol: "JOD",
   currencyValue: 1,
 };
 

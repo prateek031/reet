@@ -6,19 +6,19 @@ import Img from "../../utils/BackgroundImageRatio";
 const BreadCrumb2 = () => {
   return (
     <section className="breadcrumb-section p-0 effect-cls">
-      <Img src="/assets/images/parallax/grgbg.jpg" className="bg-img img-fluid img-center" />
+      <Img src="/assets/images/parallax/grgbg1.jpeg" className="bg-img img-fluid img-center" />
       <Container>
         <div className="breadcrumb-content">
           <div className="text-dark">
             <h2>About Us</h2>
             <nav aria-label="breadcrumb" className="theme-breadcrumb">
               <ol className="breadcrumb">
-                <li className="breadcrumb-item">
+                {/* <li className="breadcrumb-item">
                   <Link href="/home/slider-filter-search">Home</Link>
                 </li>
                 <li className="breadcrumb-item active" aria-current="page">
                   About Us
-                </li>
+                </li> */}
               </ol>
             </nav>
           </div>

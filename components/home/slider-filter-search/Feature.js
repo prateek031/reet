@@ -37,37 +37,13 @@ const FeatureSection = ({ value }) => {
                                 <Link href={`/property/image-box/?id=${data.id}`}>
                                   <h3 className="d-flex">
                                     {data.title}
-                                    <span>
+                                    {/* <span>
                                       <span className="label label-dark label-pill">{data.label}</span>
-                                    </span>
+                                    </span> */}
                                   </h3>
                                 </Link>
-                                <h6>${data.price}*</h6>
+                                <h6>{data.price}</h6>
                                 <p className="font-roboto">{data.description}</p>
-                                <ul>
-                                  <li>
-                                    <img src="/assets/images/svg/icon/double-bed.svg" className="img-fluid" alt="" />
-                                    Bed : {data.bed}
-                                  </li>
-                                  <li>
-                                    <img src="/assets/images/svg/icon/bathroom.svg" className="img-fluid" alt="" />
-                                    Baths : {data.baths}
-                                  </li>
-                                  <li>
-                                    <img src="/assets/images/svg/icon/square-ruler-tool.svg" className="img-fluid ruler-tool" alt="" />
-                                    Sq Ft : {data.sqft}
-                                  </li>
-                                </ul>
-                                <a>
-                                  <span className="round-half">
-                                    <AddToWhishList id={data.id} />
-                                  </span>
-                                </a>
-                                <div className="property-btn">
-                                  <Link href={`/property/image-box/?id=${data.id}`} className="btn btn-dashed btn-pill" tabIndex="0">
-                                    Details
-                                  </Link>
-                                </div>
                               </div>
                             </div>
                           </Col>

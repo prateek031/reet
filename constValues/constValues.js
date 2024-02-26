@@ -2,6 +2,7 @@
 export const MainTitle = "Reality Properties solve your problems";
 export const LatestForSale = "Latest & Featured Properties for sales";
 export const SubmitProperty = "submit property";
+export const KnowMore = "Know More";
 export const WantToBuyOrRentHome = "Want to buy or rent Home ?";
 export const Sale = "Sale";
 export const FeaturedProperty = "Featured Property";

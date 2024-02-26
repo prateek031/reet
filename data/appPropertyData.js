@@ -8,7 +8,7 @@ export const AppPropertyData = {
   ],
   PropertyServices: [
     { title: "Property Management", img: <Home />, details: "Property management is the control, maintenance of real estate and physical property." },
-    { title: "Mortgage Services", img: <DollarSign />, details: "Residences can be classified by and how they are connected to neighbouring residences and land." },
+    { title: "Mortgage Services", img: <DollarSign/>, details: "Residences can be classified by and how they are connected to neighbouring residences and land." },
     { title: "Currency Services", img: <Settings />, details: "A currency is standardization of money in any form when use or circulation as medium of exchange." },
     { title: "Get important notifications", img: <Bell />, details: "Residences can be classified by and how they are connected to neighbouring residences and land." },
     { title: "Transparency", img: <BookOpen />, details: "Apartments or flats on each floor and with shared entrance stairway access found in Britain." },

@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="brand-logo">
       <Link href="/">
-        <img src="/assets/images/logo/6.png" alt="" className="img-fluid" />
+        <img src="/assets/images/logo/87.png" alt="" className="img-fluid"/>
       </Link>
     </div>
   );
@@ -15,8 +15,8 @@ const Logo2 = () => {
   return (
     <div className="brand-logo">
       <Link href="/">
-        <img src="/assets/images/logo/5.png" alt="" className="img-fluid for-light" />
-        <img src="/assets/images/logo/11.png" alt="" className="img-fluid for-dark" />
+        <img src="/assets/images/logo/87.png" alt="" className="img-fluid for-light" />
+        <img src="/assets/images/logo/87.png" alt="" className="img-fluid for-dark" />
       </Link>
     </div>
   );

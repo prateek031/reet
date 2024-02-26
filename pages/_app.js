@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="sheltos" />
         <meta name="author" content="sheltos" />
         <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
-        <title>Sheltos - Filter search with slider home page</title>
+        <title>GRG Home</title>
       </Head>
       <Provider store={store}>
         <>

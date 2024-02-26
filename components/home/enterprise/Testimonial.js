@@ -39,7 +39,7 @@ const TestimonialSection = ({ value }) => {
                             <img src={data.img} alt="" />
                             <div className="media-body">
                               <h3>{data.name}</h3>
-                              <span>{CEOofDesees}</span>
+                              <span>{data.ocp}</span>
                             </div>
                           </div>
                         </div>
