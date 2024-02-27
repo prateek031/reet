@@ -10,7 +10,6 @@ import { Featured, FeaturedProperty } from "../../../constValues/constValues";
 import { feature1 } from "../../../data/slickSlider";
 import Img from "../../../utils/BackgroundImageRatio";
 import NoSsr from "../../../utils/NoSsr";
-import AddToWhishList from "../../elements/AddToWhishList";
 
 const FeatureSection = ({ value }) => {
   return (

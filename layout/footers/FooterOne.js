@@ -18,13 +18,12 @@ const FooterOne = ({ logo }) => {
           <Row className='row'>
             <FooterContactUsDetails isActive={isActive} setIsActive={setIsActive} logo={logo || <Logo />} />
             <FooterLink value={FooterData.about} isActive={isActive} setIsActive={setIsActive} />
+            <FooterLink value={FooterData.contactdets} isActive={isActive} setIsActive={setIsActive} />
             <FooterMap isActive={isActive} setIsActive={setIsActive} />
             <FooterLink value={FooterData.tag} isActive={isActive} setIsActive={setIsActive} />
-            <FooterBlog isActive={isActive} setIsActive={setIsActive} img={["/assets/images/footer/1.jpg", "/assets/images/footer/2.jpg"]} />
           </Row>
         </Container>
       </div>
-      <SubFooter />
     </footer>
   );
 };

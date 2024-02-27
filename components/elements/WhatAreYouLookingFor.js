@@ -9,12 +9,12 @@ const WhatAreYouLookingFor = () => {
       <ul>
         {AppPropertyData.WhatAreYouLookingFor.map((data, i) => (
           <li key={i}>
-            <Link href={data.path} className="looking-icon">
+            < div className="looking-icon">
               <svg className="property-svg">
                 <use xlinkHref={data.img}></use>
               </svg>
               <h6>{data.title}</h6>
-            </Link>
+            </div>
           </li>
         ))}
       </ul>

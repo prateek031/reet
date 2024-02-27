@@ -15,16 +15,28 @@ export const FooterData = {
       { title: "Properties", link: "/properties" },
     ],
   },
-  tag: {
-    title: "Tag",
+  contactdets: {
+    title: "More Contacts",
     children: [
-      { title: "Blog", link: "/pages/blog-page/no-sidebar" },
-      { title: "Blog list", link: "/pages/blog-page/left-sidebar" },
-      { title: "Creative blog", link: "/pages/blog-page/creative-right-sidebar" },
-      { title: "Masonry", link: "/pages/blog-page/masonry-left-sidebar" },
-      { title: "Mix blog", link: "/pages/blog-page/mix-list-right-sidebar" },
-      { title: "Details", link: "/pages/blog-detail-pages/detail-with-gallery" },
-      { title: "Video", link: "/pages/blog-detail-pages/detail-with-video" },
+      { title: "info@grg-jo.com", link: "mailto:info@grg-jo.com" },
+      { title: "admin@grg-jo.com", link: "mailto:admin@grg-jo.com" },
+      { title: "sales@grg-jo.com", link: "mailto:sales@grg-jo.com" },
+      { title: "+962 7 9613 6917", link: "tel:+962796136917" },
+      { title: "+962 7 9098 9296", link: "tel:+962790989296" },
+      
+    ],
+  },
+  tag: {
+    title: "Propetry Type",
+    children: [
+      { title: "LOT", link: "/properties" },
+      { title: "Commercial Building", link: "/properties" },
+      { title: "Stores", link: "/properties" },
+      { title: "Farms", link: "/properties" },
+      { title: "Apartment", link: "/properties" },
+      { title: "Villa", link: "/properties" },
+      { title: "Studio", link: "/properties" },
+      { title: "Investment Projects", link: "/properties" },
     ],
   },
   usefulLinks: {

@@ -2,9 +2,9 @@ import { Bell, BookOpen, DollarSign, Home, MapPin, Settings } from "react-feathe
 
 export const AppPropertyData = {
   WhatAreYouLookingFor: [
-    { title: "Buy Property", img: "/assets/svg/icons.svg#home-lock", path: "/listing/grid-view/2-grid/left-sidebar" },
-    { title: "Sell Property", img: "/assets/svg/icons.svg#home-heart", path: "/pages/user-panel/create-property" },
-    { title: "Rent Property", img: "/assets/svg/icons.svg#key", path: "/pages/user-panel/my-listing" },
+    { title: "Buy Property", img: "/assets/svg/icons.svg#home-lock", },
+    { title: "Sell Property", img: "/assets/svg/icons.svg#home-heart",  },
+    { title: "Rent Property", img: "/assets/svg/icons.svg#key",  },
   ],
   PropertyServices: [
     { title: "Property Management", img: <Home />, details: "Property management is the control, maintenance of real estate and physical property." },
@@ -15,9 +15,9 @@ export const AppPropertyData = {
     { title: "Near by me", img: <MapPin />, details: "Residences can be classified by and how they are connected to neighbouring residences and land." },
   ],
   OurNewOffer: [
-    { title: "Looking for the new home?", details: "10 new offers every day. 350 offers on site, trusted by a community of thousands of users.", img: "/assets/images/others/icon-1.png" },
-    { title: "Are you looking for home?", details: "350 offers on site, trusted by a community of thousands of users. 10 new offers every day.", img: "/assets/images/others/icon-2.png" },
-    { title: "Looking for the new Office?", details: "10 new offers every day. 350 offers on site, trusted by a community of thousands of users.", img: "/assets/images/others/icon-1.png" },
+    { title: "Looking for the new store?", details: "Searching for the perfect store? Let GRG be your ultimate destination for all your shopping needs!", img: "/assets/images/others/icon-1.png" },
+    { title: "Are you looking for home?", details: "Searching for your new home? Let GRG assist you in finding your dream residence!.", img: "/assets/images/others/icon-2.png" },
+    { title: "Looking for the new Office?", details: "On the hunt for your new office space? Let GRG guide you in discovering your ideal workspace!", img: "/assets/images/others/icon-1.png" },
   ],
   corporateLayoutHomeBanner: [
     {

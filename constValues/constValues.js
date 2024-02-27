@@ -1,11 +1,12 @@
 // path: home/slider-filter-search
 export const MainTitle = "Reality Properties solve your problems";
-export const LatestForSale = "Latest & Featured Properties for sales";
+export const LatestForSale = "Latest & Featured LOT'S for sales";
+export const Latestprp = "Latest & Featured property for sales";
 export const SubmitProperty = "submit property";
 export const KnowMore = "Know More";
 export const WantToBuyOrRentHome = "Want to buy or rent Home ?";
 export const Sale = "Sale";
-export const FeaturedProperty = "Featured Property";
+export const FeaturedProperty = "Premium Property";
 export const Featured = "Featured";
 export const Rent = "Rent";
 export const OurNewOffer = "Our New Offer";
@@ -19,6 +20,9 @@ export const BrowseProperty = "Browse property";
 export const MeetOurAgent = "Meet Our Team";
 export const Agent = "Heads";
 export const ViewPortfolio = "View Portfolio";
+
+export const Contact = "Contact ";
+
 export const Connect = "Connect";
 export const HappyClients = "Happy clients";
 export const Our = "Our";

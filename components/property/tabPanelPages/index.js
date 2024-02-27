@@ -36,15 +36,15 @@ const BodyContent = (props) => {
                 {props.imgSection && <ImageSection />}
                 <GalleryBox exploration={props.exploration} />
                 <SinglePropertySection />
-                <ReviewsDeskBox />
+                {/* <ReviewsDeskBox /> */}
               </div>
             </Col>
             <Sidebar>
-              <ContactInfo />
-              <Exploration />
+              {/* <ContactInfo /> */}
+              {/* <Exploration /> */}
               <Filter />
-              <Featured />
-              <RecentlyAdded />
+              {/* <Featured /> */}
+              {/* <RecentlyAdded /> */}
               <Mortgage />
             </Sidebar>
           </Row>

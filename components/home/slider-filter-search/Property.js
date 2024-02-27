@@ -14,7 +14,7 @@ const PropertySection = ({ value, range }) => {
         <Row className='ratio_55'>
           <Col>
             <div className='title-1'>
-              <span className='label label-gradient'>{Rent}</span>
+              <span className='label label-gradient'>For sale</span>
               <h2>{LatestForSale}</h2>
               <hr />
             </div>

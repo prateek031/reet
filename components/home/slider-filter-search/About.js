@@ -9,7 +9,7 @@ import React from "react";
 import { Eye, Heart, Mail } from "react-feather";
 import Slider from "react-slick";
 import { Col, Container, Row } from "reactstrap";
-import { Agent, Connect, MeetOurAgent, ViewPortfolio } from "../../../constValues/constValues";
+import { Agent, Connect, MeetOurAgent, Contact } from "../../../constValues/constValues";
 import { about1 } from "../../../data/slickSlider";
 import NoSsr from "../../../utils/NoSsr";
 import SocialAccounts from "../../elements/SocialAccounts";
@@ -55,9 +55,9 @@ const AboutSection = ({ value }) => {
                               {data.email}
                             </span>
                             <p className="font-roboto">{data.detail}</p>
-                            <Link href={`tel:${data.detail}`} className="btn btn-gradient btn-pill mt-2">
+                            <Link href={`tel:${data.ref}`} className="btn btn-gradient btn-pill mt-2">
                               <Eye />
-                              {ViewPortfolio}
+                              {Contact}
                             </Link>
                           </div>
                         </Col>

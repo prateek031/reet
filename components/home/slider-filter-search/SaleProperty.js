@@ -4,7 +4,7 @@
  */
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { LatestForSale, Sale } from "../../../constValues/constValues";
+import { Latestprp, Sale } from "../../../constValues/constValues";
 import PropertyBoxOne from "../../elements/propertyBoxs/PropertyBoxOne";
 
 const SalePropertySection = ({ value }) => {
@@ -15,7 +15,7 @@ const SalePropertySection = ({ value }) => {
           <Col>
             <div className='title-1'>
               <span className='label label-gradient'>{Sale}</span>
-              <h2>{LatestForSale}</h2>
+              <h2>{Latestprp}</h2>
               <hr />
             </div>
             <Row className='listing-hover-property'>

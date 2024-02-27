@@ -1,1 +1,9 @@
-{}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/property/image-slider": "pages/property/image-slider.js",
+  "/home": "pages/home.js",
+  "/properties": "pages/properties.js",
+  "/api/property": "pages/api/property.js"
+}

@@ -33,7 +33,7 @@ const Mortgage = () => {
 
   return (
     <div className='advance-card'>
-      <h6>Mortgage</h6>
+      <h6>Loan Calculator</h6>
       <div className='category-property'>
         <Form>
           <InputGroup className='mb-3'>

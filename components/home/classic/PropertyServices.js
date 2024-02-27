@@ -37,10 +37,10 @@ const PropertyServicesSection = ({ value }) => {
                         </div>
                         <div className="service-details">
                           <h3>
-                            <Link href="/pages/other-pages/services">{data.title}</Link>
+                           {data.title}
                           </h3>
                           <p className="font-roboto">{data.details}</p>
-                          <Link href="/pages/other-pages/services">View details</Link>
+                          <Link href="/properties">View details</Link>
                         </div>
                       </div>
                     </div>

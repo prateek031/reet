@@ -6,6 +6,8 @@ export const clientAgentData = {
       work: 'General Manager',
       email: 'moatasem@grg-jo.com',
       detail: '+962 7 9613 6917',
+      ref: '+962796136917',
+
     },
     {
       img: '/assets/images/avatar/sm.jpg',
@@ -13,6 +15,8 @@ export const clientAgentData = {
       work: 'Business Manager',
       email:  'suhaib@grg-jo.com',
       detail: '+962 7 8846 9609',
+      ref: '+962788469609',
+
     },
   
 
@@ -47,6 +51,8 @@ export const clientAgentData = {
       work: 'General Manager',
       email: 'moatasem@grg-jo.com',
       details: '+962 7 9613 6917',
+      ref: '+962796136917',
+
     },
     {
       name: 'Suhaib Al Byari',
@@ -54,6 +60,8 @@ export const clientAgentData = {
       work: 'Business Manager',
       email: 'suhaib@grg-jo.com',
       details: '+962 7 8846 9609',
+      ref: '+962788469609',
+
     },
 
   ],

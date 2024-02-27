@@ -36,11 +36,11 @@ const ServiceSection = ({ value }) => {
                           </svg>
                         </div>
                       </div>
-                      <Link href="/pages/other-pages/services">
+                      
                         <h3>{data.title}</h3>
-                      </Link>
+                     
                       <p className="font-roboto">{data.details}</p>
-                      <Link href="/pages/other-pages/services" className="btn btn-light-bg btn-flat">
+                      <Link href="/properties" className="btn btn-light-bg btn-flat">
                         <span>view more</span>
                       </Link>
                     </div>

@@ -6,15 +6,14 @@ import React, { useEffect, useReducer, useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 import Pagination from "../../../../layout/Pagination";
 import Category from "../../../../layout/sidebarLayout/Category";
-import ContactInfo from "../../../../layout/sidebarLayout/ContactInfo";
 import Filter from "../../../../layout/sidebarLayout/Filter";
 import Header from "../../../../layout/sidebarLayout/Header";
-import RecentlyAdded from "../../../../layout/sidebarLayout/RecentlyAdded";
 import Sidebar from "../../../../layout/sidebarLayout/Sidebar";
 import { getData } from "../../../../utils/getData";
 import FilterTag from "../../elements/FilterTag";
 import GridLayout from "../../elements/GridLayout";
 import { gridReducer, initialGrid } from "./gridReducer";
+import Mortgage from "../../../../layout/sidebarLayout/Mortgage";
 
 const GridView = ({ side, size, gridType, listSize, mapModal, mapView, relativeSlider, gridBar, video, tabHeader, setMapModal, children, AdvancedSearchShow, infiniteScroll, myList }) => {
   const [value, setValue] = useState();
@@ -47,6 +46,7 @@ const GridView = ({ side, size, gridType, listSize, mapModal, mapView, relativeS
               <Filter value={value} sm={12} lg={12} /> <Category value={value} />
               {/* <ContactInfo /> */}
               {/* <RecentlyAdded /> */}
+              <Mortgage/>
             </Sidebar>
           )}
 
