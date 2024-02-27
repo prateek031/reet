@@ -2,9 +2,6 @@ import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import { LoadingScreen } from "../layout/loader/LoadingScreen";
 
-const prisma = new PrismaClient();
-import { PrismaClient } from "@prisma/client";
-
 
 const index = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks

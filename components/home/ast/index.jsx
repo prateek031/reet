@@ -18,13 +18,7 @@ import TestimonialSection from "./Testimonial";
 import ServiceSection from "../corporate/Service";
 import AboutUsSection from "../corporate/About";
 import PropertyServicesSection from "../classic/PropertyServices";
-export async function getServerSideProps() {
-  const users = await prisma.user.findMany();
-  console.log("Users:", users);
-  return {
-    props: { users },
-  };
-}
+
 
 
 
@@ -55,7 +49,6 @@ const BodyContent = () => {
 
   return (
     <>
-      <getServerSideProps/>
       <HomeBannerSection />
       <ServiceSection value={AppPropertyData.ProvidedServices} />
       <AboutUsSection value={clientData?.OurAgentInCorporateLayout} />
