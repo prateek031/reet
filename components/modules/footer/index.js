@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import FooterOne from "../../../layout/footers/FooterOne";
-import FooterOne from "../../../layout/footers/FooterOne";
 import FooterTwo from "../../../layout/footers/FooterTwo";
 import FooterFour from "../../../layout/footers/FooterFour";
 
