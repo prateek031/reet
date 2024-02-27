@@ -2,9 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/home": "pages/home.js",
-  "/api/property": "pages/api/property.js",
+  "/": "pages/index.js",
   "/api/client-agent": "pages/api/client-agent.js",
-  "/aboutus": "pages/aboutus.js"
+  "/api/property": "pages/api/property.js"
 }

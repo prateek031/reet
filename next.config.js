@@ -13,6 +13,6 @@ module.exports = withPWA({
   reactStrictMode: false,
   i18n,
   env: {
-    API_URL: "https://reet-nu.vercel.app/api",
+    API_URL: "/api",
   },
 });
