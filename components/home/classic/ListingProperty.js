@@ -6,7 +6,7 @@
  */
 import React, { useState } from "react";
 import { Col, Container, Row } from "reactstrap";
-import { LatestPropertyDetail, ListingProperty } from "../../../constValues/constValues";
+import { LatestPropertyDetail } from "../../../constValues/constValues";
 import PropertyBoxSix from "../../elements/propertyBoxs/PropertyBoxSix";
 
 const ListingPropertySection = ({ value }) => {
@@ -18,7 +18,7 @@ const ListingPropertySection = ({ value }) => {
           <Col>
             <div className='title-3 text-start d-flex'>
               <div>
-                <h2>{ListingProperty}</h2>
+                {/* <h2>{ListingProperty}</h2> */}
                 <p className='font-roboto'>{LatestPropertyDetail}</p>
               </div>
               <ul className='nav nav-tabs pagination-tab' id='top-tab' role='tablist'>
