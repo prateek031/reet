@@ -28,12 +28,7 @@ const BodyContent = () => {
 
  
 
-  useEffect(() => {
-
-
-
-   
-
+  useEffect(() => { 
     getData(`${process.env.API_URL}/property`)
       .then((res) => {
         setValue(res.data);

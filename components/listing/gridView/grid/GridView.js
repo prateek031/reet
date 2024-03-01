@@ -27,7 +27,7 @@ const GridView = ({ side, size, gridType, listSize, mapModal, mapView, relativeS
     getData(`${process.env.API_URL}/property`)
       .then((res) => {
         relativeSlider
-          ? setValue(res.data?.LatestPropertyListingInEnterprise)
+          ? setValue(res.data)
           : setValue(
               Object.keys(res.data)
                 .map((key) => [res.data[key]])

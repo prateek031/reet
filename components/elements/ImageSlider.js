@@ -7,7 +7,7 @@ import NoSsr from "../../utils/NoSsr";
 const ImageSlider = ({ images }) => {
   return (
     <NoSsr>
-      <Slider className="property-slider" {...propertySlider}>
+      {/* <Slider className="property-slider" {...propertySlider}>
         {images?.map((data, i) => (
           <div key={i}>
             <div>
@@ -15,7 +15,7 @@ const ImageSlider = ({ images }) => {
             </div>
           </div>
         ))}
-      </Slider>
+      </Slider> */}
     </NoSsr>
   );
 };

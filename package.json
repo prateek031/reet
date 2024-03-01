@@ -12,6 +12,7 @@
   "dependencies": {
     "@egjs/react-grid": "^1.12.1",
     "@fortawesome/fontawesome-free": "^5.9.0",
+    "@prisma/client": "^5.10.2",
     "@reduxjs/toolkit": "^1.8.6",
     "animate.css": "^4.1.1",
     "apexcharts": "^3.35.5",
@@ -49,7 +50,8 @@
   "devDependencies": {
     "eslint": "^8.25.0",
     "eslint-config-next": "^13.0.3",
-    "eslint-config-prettier": "^8.5.0"
+    "eslint-config-prettier": "^8.5.0",
+    "prisma": "^5.10.2"
   },
   "eslintConfig": {
     "extends": [

@@ -15,7 +15,6 @@ export const getStaticProps = async ({ locale }) => ({ props: { ...(await server
 import { getData } from "../../utils/getData";
 
 const View360 = () => {
-  const router = useRouter();
   const { id } = router.query;
   const [value, setValue] = useState({});
 

@@ -1,0 +1,207 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model featuredproperty {
+  id          Int     @id @default(autoincrement())
+  city        String? @db.VarChar(255)
+  title       String? @db.VarChar(255)
+  label       String? @db.VarChar(255)
+  description String? @db.VarChar(255)
+  type        String? @db.VarChar(255)
+  img         String? @db.VarChar(255)
+  imgLabel    String? @db.VarChar(255)
+}
+
+model featuredpropertyinclassiclayout {
+  id      Int     @id @default(autoincrement())
+  img     String? @db.VarChar(255)
+  title   String? @db.VarChar(255)
+  place   String? @db.VarChar(255)
+  details String? @db.VarChar(255)
+  sqft    String? @db.VarChar(255)
+  price   String? @db.VarChar(255)
+}
+
+model featuredpropertyincorporatelayout {
+  id    Int     @id @default(autoincrement())
+  title String? @db.VarChar(255)
+  img   String? @db.VarChar(255)
+  city  String? @db.VarChar(255)
+}
+
+model findpropertiesinthesecities {
+  id    Int     @id @default(autoincrement())
+  title String? @db.VarChar(255)
+  img   String? @db.VarChar(255)
+  city  String? @db.VarChar(255)
+}
+
+model latestforsalepropertydata {
+  id             Int      @id @default(autoincrement())
+  title          String?  @db.VarChar(255)
+  propertyStatus String?  @db.VarChar(255)
+  label          String?  @db.VarChar(255)
+  price          String?  @db.VarChar(255)
+  bed            Int
+  bath           Int
+  balcony        Int
+  area           Int
+  img            String?  @db.VarChar(255)
+  date           DateTime
+}
+
+model latestpropertydata {
+  id             Int       @id @default(autoincrement())
+  img            String?
+  propertyStatus String?   @db.VarChar(255)
+  label          String?   @db.VarChar(255)
+  country        String?   @db.VarChar(255)
+  title          String?   @db.VarChar(255)
+  price          String?   @db.VarChar(255)
+  details        String?   @db.VarChar(255)
+  bed            Int?
+  bath           Int?
+  sqft           Int?
+  rooms          Int?
+  date           DateTime?
+  rent           Boolean?
+  sale           Boolean?
+  propertyType   String?   @db.VarChar(255)
+  agencies       String?   @db.VarChar(255)
+}
+
+model latestpropertyinclassiclayout {
+  id             Int     @id @default(autoincrement())
+  img            String? @db.VarChar(255)
+  propertyStatus String? @db.VarChar(255)
+  label          String? @db.VarChar(255)
+  country        String? @db.VarChar(255)
+  title          String? @db.VarChar(255)
+  price          String? @db.VarChar(255)
+  details        String? @db.VarChar(255)
+  home           String? @db.VarChar(255)
+  bed            Int?
+  bath           Int?
+  sqft           Int?
+  rooms          Int?
+  date           String? @db.VarChar(255)
+}
+
+model latestpropertylistinginenterprise {
+  id             Int       @id @default(autoincrement())
+  img            String?
+  type           String?   @db.VarChar(255)
+  propertyStatus String?   @db.VarChar(255)
+  label          String?   @db.VarChar(255)
+  country        String?   @db.VarChar(255)
+  title          String?   @db.VarChar(255)
+  price          String?   @db.VarChar(255)
+  details        String?   @db.VarChar(255)
+  home           String?   @db.VarChar(255)
+  bed            Int?
+  bath           Int?
+  sqft           Int?
+  rooms          Int?
+  date           DateTime?
+  video          String?   @db.VarChar(255)
+  propertyType   String?   @db.VarChar(255)
+  agencies       String?   @db.VarChar(255)
+}
+
+model listingpropertyinclassiclayout {
+  id             Int     @id @default(autoincrement())
+  img            String? @db.VarChar(255)
+  propertyStatus String? @db.VarChar(255)
+  label          String? @db.VarChar(255)
+  country        String? @db.VarChar(255)
+  title          String? @db.VarChar(255)
+  price          String? @db.VarChar(255)
+  details        String? @db.VarChar(255)
+  home           String? @db.VarChar(255)
+  bed            Int?
+  bath           Int?
+  sqft           Int?
+  rooms          Int?
+  date           String? @db.VarChar(255)
+}
+
+model listingpropertyinmodernvideolayout {
+  id             Int       @id @default(autoincrement())
+  img            String?   @db.VarChar(255)
+  propertyStatus String?   @db.VarChar(255)
+  label          String?   @db.VarChar(255)
+  country        String?   @db.VarChar(255)
+  title          String?   @db.VarChar(255)
+  price          String?   @db.VarChar(255)
+  details        String?   @db.VarChar(255)
+  home           String?   @db.VarChar(255)
+  bed            Int?
+  bath           Int?
+  sqft           Int?
+  rooms          Int?
+  date           DateTime?
+}
+
+model property {
+  id    Int     @id @default(autoincrement())
+  title String? @db.VarChar(255)
+  size  Int?
+  desc  String? @db.VarChar(255)
+}
+
+model propertylisting {
+  id             Int       @id @default(autoincrement())
+  img            String?
+  propertyStatus String?   @db.VarChar(255)
+  label          String?   @db.VarChar(255)
+  country        String?   @db.VarChar(255)
+  title          String?   @db.VarChar(255)
+  price          String?   @db.VarChar(255)
+  details        String?   @db.VarChar(255)
+  home           String?   @db.VarChar(255)
+  bed            Int?
+  bath           Int?
+  sqft           Int?
+  rooms          Int?
+  date           DateTime?
+  rent           Boolean?
+  sale           Boolean?
+  propertyType   String?   @db.VarChar(255)
+  agencies       String?   @db.VarChar(255)
+}
+
+model propertyoftheday {
+  id             Int       @id @default(autoincrement())
+  type           String?   @db.VarChar(255)
+  title          String?   @db.VarChar(255)
+  img            String?
+  place          String?   @db.VarChar(255)
+  address        String?   @db.VarChar(255)
+  details        String?   @db.VarChar(255)
+  sqft           String?   @db.VarChar(255)
+  price          String?   @db.VarChar(255)
+  path           String?   @db.VarChar(255)
+  date           DateTime?
+  propertyStatus String?   @db.VarChar(255)
+  label          String?   @db.VarChar(255)
+  country        String?   @db.VarChar(255)
+  home           String?   @db.VarChar(255)
+  bed            Int?
+  bath           Int?
+  rooms          Int?
+  propertyType   String?   @db.VarChar(255)
+  agencies       String?   @db.VarChar(255)
+}
+
+model user {
+  id         BigInt  @id @default(autoincrement())
+  first_name String? @db.VarChar(255)
+  last_name  String? @db.VarChar(255)
+  email      String? @db.VarChar(100)
+}
